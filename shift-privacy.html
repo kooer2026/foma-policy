@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOMA 교대달력 개인정보 처리방침</title>
+<style>
+  :root { --text:#1a1a1a; --muted:#5b5b5b; --line:#dddddd; --bg:#ffffff; --accent:#1d3a8a; }
+  @media (prefers-color-scheme: dark) { :root { --text:#ececec; --muted:#a8a8a8; --line:#3a3a3a; --bg:#151515; --accent:#8fb0ff; } }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:'Pretendard','Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif; line-height:1.7; }
+  main { max-width:760px; margin:0 auto; padding:28px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--line); }
+  p, li { font-size:0.98rem; }
+  .muted { color:var(--muted); font-size:0.9rem; }
+  table { width:100%; border-collapse:collapse; font-size:0.92rem; margin:8px 0; }
+  th, td { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+  th { background:color-mix(in srgb, var(--accent) 10%, transparent); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>FOMA 교대달력 개인정보 처리방침</h1>
+<p class="muted">시행일: 2026년 11월 14일 · 적용 대상: FOMA 교대달력(안드로이드·아이폰·PC, 체험판 포함)</p>
+
+<p>FOMASOFT(이하 "회사")는 FOMA 교대달력(이하 "앱")을 쓰는 분의 개인정보를 소중히 다룹니다. 이 앱은 <b>기록을 사용자의 기기 안에만 저장</b>하도록 만들어졌으며, 회사는 사용자의 근무 기록·메모·사진을 받지 않습니다. 이 방침은 앱이 어떤 정보를 어디에 두는지, 어떤 경우에 회사 서버와 통신하는지 알려 드립니다.</p>
+
+<h2>1. 기기 안에만 저장되는 정보</h2>
+<p>아래 정보는 사용자의 휴대폰·PC 안에만 저장되며 회사 서버로 보내지 않습니다.</p>
+<ul>
+  <li>앱 안에서 만드는 계정(이름, 비밀번호를 확인하기 위한 값). 서버에 가입하는 계정이 아닙니다.</li>
+  <li>근무형태, 내 조, 날짜별 근무·잔업·휴가·메모, 날 이름</li>
+  <li>메모와 메모에 붙인 사진·파일</li>
+  <li>화면 꾸미기, 글꼴, 글자 크기 같은 설정</li>
+</ul>
+<p>앱을 지우면 이 정보도 함께 지워집니다. 사용자가 직접 만든 백업 파일은 사용자가 고른 폴더에 남습니다.</p>
+
+<h2>2. 회사 서버와 통신하는 경우</h2>
+<p>앱은 아래 경우에만 회사가 운영하는 서버(Supabase, 대한민국 서울 지역)와 통신합니다. 이때 사용자의 이름·연락처·근무 기록은 보내지 않습니다.</p>
+<table>
+  <tr><th>기능</th><th>보내는 것</th><th>목적·보관</th></tr>
+  <tr><td>한국 공휴일 받기</td><td>없음(공개 자료를 받기만 함)</td><td>달력에 공휴일 표시</td></tr>
+  <tr><td>회사 목록에서 근무형태 고르기·바뀜 알림</td><td>없음(공개 목록을 받기만 함)</td><td>회사별 근무형태를 불러와 등록</td></tr>
+  <tr><td>글꼴 내려받기</td><td>없음(공개 파일을 받기만 함)</td><td>고른 글꼴을 기기에 저장</td></tr>
+  <tr><td>근무형태 등록·수정 요청(사용자가 직접 보낼 때만)</td><td>회사 이름, 사업장, 근무형태 이름, 근무 순서·기준일·근무 시각, 사용자가 적은 메모(300자 이내), 무작위로 만든 기기 번호와 요청 번호</td><td>관리자가 검토해 회사 목록에 반영. 기기 번호는 하루 요청 수(5건)를 세는 데만 씀. 요청 기록은 처리 후 회사 목록 관리에 필요한 기간 동안 보관</td></tr>
+</table>
+<p>요청 메모에는 이름·전화번호 같은 개인정보를 적지 말아 주세요. 요청을 보내기 전에 보낼 내용이 화면에 표시되며, 동의해야 보내집니다.</p>
+<p>통신 과정에서 서버는 일반적인 인터넷 통신처럼 접속 주소(IP)와 시간을 일시적으로 기록할 수 있으며, 회사는 이를 서비스 운영·보안 외의 목적으로 쓰지 않습니다.</p>
+
+<h2>3. 내 PC와 주고받기(동기화)</h2>
+<p>사용자가 연결한 PC(FOMA 교대달력 PC 앱)와 기록을 주고받을 때는 <b>같은 와이파이·핫스팟 안에서 기기끼리 직접</b> 주고받으며, 암호화해서 보냅니다. 회사 서버를 거치지 않습니다.</p>
+
+<h2>4. 사용자가 직접 내보내는 경우</h2>
+<p>사용자가 근무표 그림·달력 파일(.ics)·근무형태 파일·메모를 카카오톡, 메일 등으로 보내거나 기기 캘린더에 넣는 것은 사용자의 선택이며, 이때 정보는 사용자가 고른 앱·사람에게 전달됩니다. 회사는 이 내용을 받지 않습니다.</p>
+
+<h2>5. 기기 권한</h2>
+<table>
+  <tr><th>권한</th><th>쓰는 때</th></tr>
+  <tr><td>카메라</td><td>메모에 사진을 찍어 붙일 때, PC 연결 QR 코드를 찍을 때</td></tr>
+  <tr><td>사진·파일</td><td>사진·파일을 메모에 붙이거나, 내보낸 그림을 저장하거나, 백업 폴더를 고를 때</td></tr>
+  <tr><td>로컬 네트워크(같은 와이파이)</td><td>내 PC를 찾아 기록을 주고받을 때</td></tr>
+  <tr><td>캘린더(아이폰)</td><td>근무 일정을 기기 캘린더의 이 앱 전용 캘린더에 넣을 때</td></tr>
+  <tr><td>알림</td><td>메모 알림을 울릴 때</td></tr>
+  <tr><td>Face ID·지문</td><td>앱 잠금을 풀 때(생체 정보는 기기가 확인하며 앱에 저장하지 않음)</td></tr>
+</table>
+<p>권한은 그 기능을 처음 쓸 때 묻고, 기기 설정에서 언제든 끌 수 있습니다. 권한을 끄면 그 기능만 쓸 수 없습니다.</p>
+<p>사진에서 글자 읽기는 기기 안의 기능으로 처리하며, 사진을 회사 서버로 보내지 않습니다.</p>
+
+<h2>6. 광고·분석·추적</h2>
+<p>앱에는 광고, 사용 분석 도구, 다른 앱·웹사이트를 넘나드는 추적 기능이 없습니다. 회사는 사용자의 개인정보를 제3자에게 팔거나 제공하지 않습니다.</p>
+
+<h2>7. 체험판</h2>
+<p>체험판은 정해진 기간 동안만 쓸 수 있으며, 기간이 지나면 기록은 기기에 그대로 남고 백업 파일을 만들 수 있습니다. 체험판도 이 방침과 같게 정보를 다룹니다. 아이폰 체험판은 애플의 TestFlight로 배포되며, TestFlight가 수집하는 정보(설치·충돌 기록 등)는 애플의 방침을 따릅니다.</p>
+
+<h2>8. 어린이</h2>
+<p>앱은 만 14세 미만 어린이를 대상으로 하지 않으며, 어린이의 개인정보를 일부러 수집하지 않습니다.</p>
+
+<h2>9. 이용자의 권리</h2>
+<p>앱의 기록은 사용자의 기기에 있으므로 사용자가 직접 보고, 고치고, 지울 수 있습니다(앱 안의 지우기, 계정 삭제, 앱 삭제). 회사에 보낸 근무형태 요청을 지워 달라고 하실 때는 아래 연락처로 알려 주세요.</p>
+
+<h2>10. 방침의 변경</h2>
+<p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
+
+<h2>11. 문의</h2>
+<p>개인정보 보호 책임: FOMASOFT<br>연락처: <a href="mailto:foma2026ser2@fomasoft.com">foma2026ser2@fomasoft.com</a></p>
+</main>
+</body>
+</html>
